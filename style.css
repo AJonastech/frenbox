@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'outfit', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+body{
+
+    background-color:#FAF9F6 ;
+}
+.header{
+    width:100%;
+    padding: 0.5em 0em;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+    
+}
+.container{
+    max-width:90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+.image{
+    width:3em;
+    display: flex;
+    align-items: center;
+}
+.flex{
+    display:flex;
+}
+
+.imga{
+    width:100%;
+    object-fit: cover;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    font-size: 1em;
+    background-color:#FAF9F6 ;
+    color:black;
+}
+.anime{
+  position: absolute;
+    text-decoration: none;
+     width:0%;
+     padding:1.1em 0;
+    font-size: 1em;
+    background-color:#d4d4d4 ;
+    opacity: 0.2;
+    color:black;
+    transition:width 0.5s;
+    
+}
+
+.ct:hover .anime{
+    width:100%;
+    
+}
+.ct{
+    display: flex;
+    margin-left: 1em;
+    position: relative;
+    padding: 0;
+    align-items: center;
+
+    
+}
+.bg-blue{
+    background-color: #00A2FB;
+    color:#fff;
+}
+#Main_item{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top:3em;;
+    
+}
+.imgb{
+
+    object-fit: contain;
+    width:100%;
+    height:100%;
+}
+.image_container{
+    width: 50%;
+    height:500px;
+    background-color:#FAF9F6  ;
+}
+.flex-custom{
+    justify-content: center;
+    margin-top: 3em;
+}
+.btn-ct{
+    padding: 1em 1.5em;
+}
+.bg-white{
+    background-color: #fff;
+ font-size:1em;
+ margin-top: -1em;
+    padding: 1em 1.5em;
+    
+}
+.bg-blue:hover{
+    opacity: 0.8;
+}
+
+    @media only screen and (max-width: 736px) {
+        .desktopPeripherals{
+            display:none;
+        }
+        .image_container{
+            width: 80%;
+        }
+        .btn-ct{
+            padding: 0.75em 1em;
+        }
+        .bg-white{
+            background-color: #fff;
+         font-size:1em;
+         margin-top: -0.75em;
+            padding: 0.75em 1em;
+            
+        }
+        .flex-custom{
+            margin-top:1.5em;
+        }
+        #Main_item{
+            margin-top: 1.5em;
+        }
+      }
